@@ -29,4 +29,3 @@ public class ReferenceCountingGC {
         System.gc();
     }
 }
-
