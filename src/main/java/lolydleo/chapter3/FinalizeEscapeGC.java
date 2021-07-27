@@ -9,7 +9,6 @@ package lolydleo.chapter3;
  */
 public class FinalizeEscapeGC {
 
-    // 与这个静态变量代表的GC Root相关连可以在finalize函数执行时被救出
     public static FinalizeEscapeGC SAVE_HOOK = null;
 
     public void isAlive() {
@@ -49,3 +48,6 @@ public class FinalizeEscapeGC {
         }
     }
 }
+/**
+ * 一个对象的finalize方法只会被系统自动调用1次，如果对象面临下一次回收，则该方法不会在被执行
+ * */
