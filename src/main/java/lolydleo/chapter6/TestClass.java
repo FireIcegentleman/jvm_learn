@@ -1,5 +1,8 @@
 package lolydleo.chapter6;
 
+/**
+ * 可以使用Class Viewer
+ * */
 public class TestClass {
     private int m ;
     public int inc(){
